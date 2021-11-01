@@ -15,9 +15,9 @@ var body = $response.body;
 const path1 = "/pep/gcc";
 
 if (url.indexOf(path1) != -1) {
-    let obj = body; 
-        obj = GeoCountryCode;
+    let obj = body;
+    obj = GeoCountryCode;
     body = obj;
 };
 
-$done({body});
+$done({ body });
